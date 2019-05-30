@@ -1,0 +1,39 @@
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 5;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    
+    
+  }
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+  }
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+
+.bg-1 { 
+    
+    color: #ffffff;
+    background: rgba(26, 158, 199, 0.8)
+    }
+
+.bg-2 { 
+    
+        color: #0f4c5d;
+        background: rgba(255, 255, 255, 0.5)
+        }
+/*
+body {
+        width: 90%;
+        margin: 0 auto;
+        }
+*/
