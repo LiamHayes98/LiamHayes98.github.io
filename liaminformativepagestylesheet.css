@@ -10,9 +10,14 @@
     
   }
 
+/*This is the styling for the nav bar, which consists of padding on the top and bottom so there is space above and below the links.
+*/
+
 .navbar-nav li a:hover {
     color: #1abc9c !important;
   }
+
+/*This is the styling for when you hover over a link on the nav bar it will highlight as a different color to give you some responsiveness when navigating the website*/
 
 .container {
     padding-top: 20px;
@@ -20,20 +25,21 @@
     
   }
 
+/*This is the styling for any container created on the webpage, which has a padding on the top and bottom to add spacing between each different portion of content on the page*/
+
 .bg-1 { 
     
     color: #ffffff;
     background: rgba(26, 158, 199, 0.8)
     }
 
+/*This is the styling for the first container that has a row and a specified amount of columns in the html page.  It has its own unique text color and it has a transparent background of its own color at 80% opacity*/
+
 .bg-2 { 
     
         color: #0f4c5d;
         background: rgba(255, 255, 255, 0.5)
         }
-/*
-body {
-        width: 90%;
-        margin: 0 auto;
-        }
-*/
+
+/*/*This is the styling for the second container that has a row and a specified amount of columns in the html page.  It has its own unique text color and it has a transparent background of its own color at 50% opacity*/
+
