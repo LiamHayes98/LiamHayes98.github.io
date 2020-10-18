@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="liaminformativepagestylesheet.css">
 
+<!-- Latest compiled and minified CSS -->
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  
+</head>
+<body>
+
+        <body background="Graphics/underwater background.png">
+
+        <nav class="navbar navbar-default">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand" href="#">Lady Elliott Island Scuba Diving</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="leipreparation.html">PREPARATION</a></li>
+                      <li><a href="leiscubadiving.html">SCUBA DIVING</a></li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+<div class="container bg-1" >
+  <div class="row align-items-center">
+    <div class="col-sm-6">
+      <img src="Graphics/LEI island.jpeg" class="img-responsive"  style="display:inline" alt="Image">
+    </div>
+    <div class="col-sm-6">
+            <p style="color:white;font-size:1.6vw;font-family: 'Anton', sans-serif;">Lady Elliott Island, the southernmost coral cay of the Great Barrier Reef in Australia, is a beautiful island where you can explore the diverse marine life within the flourishing coral reefs. Lady Elliot Island is located within the 'Green Zone' of the Great Barrier Reef Marine Park, which is the highest possible classification designated by the Great Barrier Reef Marine Park Authority. Marine National Park Green Zones protect the biodiversity within the park by protecting important breeding and nursery areas such as seagrass beds, mangrove communities, deepwater shoals and reefs. Explore our website to gain valuable information to better your experience on the island!</p>
+                </div>
+    </div>
+    </div>
+
+
+
+              <div class="container bg-2 text-center">
+                    
+                    <div class="row">
+                      <div class="col-sm-6">
+                            
+                            <h3>Preparing for the Island</h3>
+                            
+                            <a href="leipreparation.html">
+                        <img src="Graphics/turtle.jpg" class="img-responsive"  style="display:inline" width="500" alt="Image">
+                            </a>
+                      </div>
+                      <div class="col-sm-6">
+                        <h3>Scuba Diving</h3>
+                        <a href="leiscubadiving.html">
+                        <img src="Graphics/scuba diver.jpg" class="img-responsive" style="display:inline" width="500" alt="Image">
+                        </a>
+                      </div>
+                      
+                    </div>
+
+    
+    
+    
+
+
+
+</body>
+</html>
