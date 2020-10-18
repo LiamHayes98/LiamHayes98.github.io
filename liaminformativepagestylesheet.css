@@ -25,6 +25,12 @@
     
   }
 
+.col-sm-6 {
+    color:white;
+    font-size:1.6vw;
+    font-family: 'Anton', sans-serif;
+}
+
 /*This is the styling for any container created on the webpage, which has a padding on the top and bottom to add spacing between each different portion of content on the page*/
 
 .bg-1 { 
