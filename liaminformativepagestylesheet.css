@@ -45,7 +45,6 @@
 
 .col-sm-6 {
     color:white; 
-    font-size:1vw; 
     font-family: 'Anton', sans-serif; 
     @media screen and (max-width: 767px) {
   div.example {
