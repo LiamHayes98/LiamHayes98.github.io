@@ -12,7 +12,6 @@
 
 /*This is the styling for the nav bar, which consists of padding on the top and bottom so there is space above and below the links.
 */
-
 .navbar-nav li a:hover {
     color: #1abc9c !important;
   }
@@ -25,13 +24,6 @@
     
   }
 
-.col-sm-6 {
-    color:white; 
-    font-size:1vw; 
-    font-family: 'Anton', sans-serif; 
-    
-    
-}
 
 /*This is the styling for any container created on the webpage, which has a padding on the top and bottom to add spacing between each different portion of content on the page*/
 
@@ -51,3 +43,13 @@
 
 /*/*This is the styling for the second container that has a row and a specified amount of columns in the html page.  It has its own unique text color and it has a transparent background of its own color at 50% opacity*/
 
+.col-sm-6 {
+    color:white; 
+    font-size:1vw; 
+    font-family: 'Anton', sans-serif; 
+}
+
+body {
+    background="Graphics/underwater background.png";
+}
+    
