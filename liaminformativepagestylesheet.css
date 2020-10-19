@@ -48,11 +48,11 @@
     font-family: 'Anton', sans-serif; 
     @media screen and (max-width: 767px) {
   div.example {
-    font-size: 80px;
+    font-size: 300px;
   }
         @media screen and (min-width: 1000px) {
   div.example {
-    font-size: 60px;
+    font-size: 200px;
   }
 }
 }
