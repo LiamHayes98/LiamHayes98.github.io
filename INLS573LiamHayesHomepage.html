@@ -51,7 +51,16 @@ html {
   background-color: #0099cc;
 }
 
-.aside {
+.leftcolumn {
+  background-color: rgba(26, 158, 199, 0.8);
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.1vw;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+  
+  .rightcolumn {
   background-color: rgba(26, 158, 199, 0.8);
   padding: 15px;
   color: #ffffff;
@@ -76,6 +85,16 @@ h2 {
   color: #000000;
   font-size: 1.5vw;
   }
+  
+  @media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+  
+  @media only screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
   
 @media only screen and (min-width: 900px) {
   /* For tablets: */
@@ -123,7 +142,7 @@ h2 {
 </div>
 
 <div class="row">
-  <div class="col-2 col-s-2 menu">
+  <div class="col-2 menu">
     <ul>
     <h2>My Top Movies<h2>
     <li>Princess Bride</li>
@@ -139,15 +158,15 @@ h2 {
     <li>New York Giants</li>
     </ul>
 </div>
-  <div class="col-4 col-s-1">
-    <div class="aside">
+  <div class="col-4">
+    <div class="leftcolumn">
 <img src="Graphics/Liam.jpg" alt="Liam" class="responsive">
      <p>My name is Liam Hayes and I graduated from The University of North Carolina in 2020.  I double majored in Information Science and Communications New Media.  I have been a diehard UNC fan my whole life and my biggest memory was rushing Franklin Street the year our basketball team won it all.  I recently started my first job out of college as an Application Engineer with a software company called DevonWay.  DevonWay provides safety and quality management solutions to nuclear energy companies, and it is my job to configure the software to best fit the customers specific needs.  Last year, I studied abroad in New Zealand, Australia, and Fiji, which was without a doubt the best experience of my entire life.  I live in the Lake Norman area so I love going out on the boat to ski and wake board on sunny days.</p>
     </div>
  </div>
 
-  <div class="col-4 col-s-1">
-    <div class="aside">
+  <div class="col-4">
+    <div class="rightcolumn">
       <a href="INLS573MyInterests.html">
      <img src="Graphics/myintereststestfinal.jpg" alt="Liam" class="responsive">
          <a href="INLS573MyTravels.html">
@@ -156,7 +175,7 @@ h2 {
    </div>
   
       <div class="row">
-  <div class="col-2 col-s-2 menu">
+  <div class="col-2 menu">
     <ul>
     <h2>My Top Songs<h2>
     <li>Bohemian Rhapsody - Queen</li>
