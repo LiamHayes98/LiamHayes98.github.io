@@ -1,63 +1,15 @@
-.navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border: 5;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-    
-    
-  }
-
-/*This is the styling for the nav bar, which consists of padding on the top and bottom so there is space above and below the links.
-*/
-.navbar-nav li a:hover {
-    color: #1abc9c !important;
-  }
-
-/*This is the styling for when you hover over a link on the nav bar it will highlight as a different color to give you some responsiveness when navigating the website*/
-
-.container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-  }
-
-
-/*This is the styling for any container created on the webpage, which has a padding on the top and bottom to add spacing between each different portion of content on the page*/
-
-.bg-1 { 
-    
-    color: #ffffff;
-    background: rgba(26, 158, 199, 0.8)
-    }
-
-/*This is the styling for the first container that has a row and a specified amount of columns in the html page.  It has its own unique text color and it has a transparent background of its own color at 80% opacity*/
-
-.bg-2 { 
-    
-        color: #0f4c5d;
-        background: rgba(255, 255, 255, 0.5)
-        }
-
-/*/*This is the styling for the second container that has a row and a specified amount of columns in the html page.  It has its own unique text color and it has a transparent background of its own color at 50% opacity*/
-
-.col-sm-6 {
-    color:white; 
-    font-family: 'Anton', sans-serif; 
-    @media screen and (max-width: 767px) {
-  div.example {
-    font-size: 300px;
-  }
-        @media screen and (min-width: 1000px) {
-  div.example {
-    font-size: 200px;
-  }
-}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 
-body {
-    background="Graphics/underwater background.png";
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
-    
+
