@@ -88,6 +88,10 @@ leftmenu li:hover {
 img {
   max-width: 100%;
 }
+
+a {
+  color: blue;
+}
   
 @media (min-width: 768px) {
   .content-flex-container
