@@ -42,12 +42,11 @@ a {
   background: #eee;
 }
 
-leftcolumn {
+aside {
   background-color: rgba(26, 158, 199, 0.8);
   font-size: 3vw;
   padding: 1.25vw;
   color: white;
-  order:1;
   }
 rightcolumn {
   background-color: rgba(26, 158, 199, 0.8);
@@ -71,12 +70,9 @@ rightcolumn {
  section {
    flex: 2;
     }
- .aside1 {
-   flex:2;
-    }
- .aside2 {
-   flex:2;
-    }
+aside {
+  flex:2
+  }
   }
 
   
@@ -87,23 +83,18 @@ rightcolumn {
  <div class = "header">
   <header>Liam Hayes - My Travels</header>
   </div>
-  
+
+<div class="content-flex-container">
+ <aside>
+ <img src="Graphics/New Zealandfinal.jpg"
+ alt="New Zealand">
+ </aside>
  <section>
-  <div class = "content-flex-container">
-       <main class="middlecolumn">
-         <img src="Graphics/New Zealandfinal.jpg"
+ <img src="Graphics/New Zealandfinal.jpg"
  alt="New Zealand">
-    </main>
-    
-      <aside class="leftcolumn">
-        <img src="Graphics/Australiafinal.jpg"
- alt="New Zealand">
-    </aside>
-    
-      <aside class="rightcolumn">
-        <img src="Graphics/New Zealandfinal.jpg"
- alt="New Zealand">
-    </aside>
+ </section>
+</div>
+  
 
   </div>
   </section>
