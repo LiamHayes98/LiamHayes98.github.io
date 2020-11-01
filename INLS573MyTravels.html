@@ -35,17 +35,26 @@ a {
   color: blue;
 }
 
-aside1 {
+
+.middlecolumn{
+  flex: 1;
+  order: 2;
+  background: #eee;
+}
+
+leftcolumn {
   background-color: rgba(26, 158, 199, 0.8);
   font-size: 3vw;
   padding: 1.25vw;
   color: white;
+  order:1;
   }
-aside2 {
+rightcolumn {
   background-color: rgba(26, 158, 199, 0.8);
   font-size: 3vw;
   padding: 1.25vw;
   color: white;
+  order: 3;
   }
 
   section {
@@ -74,30 +83,45 @@ aside2 {
 </style>
   
 <body>
+ 
+  <div class="wrapper">
+  <header class="header">Header: Fixed height</header>
+  <section class="content">
+    <div class="columns">
+      <main class="main">Content: Flexible width</main>
+      <aside class="sidebar-first">Sidebar first: Fixed width</aside>
+      <aside class="sidebar-second">Sidebar second: Fixed width</aside>
+    </div>
+  </section>
+  <footer class="footer">Footer: Fixed height</footer>
+</div>
+  
+  
+
 
  <div class = "header">
   <header>Liam Hayes - My Travels</header>
   </div>
-
-<div class = "content-flex-container">
   
-<section>
- <img src="Graphics/New Zealandfinal.jpg"
+ <section>
+  <div class = "content-flex-container">
+       <main class="middlecolumn">
+         <img src="Graphics/New Zealandfinal.jpg"
  alt="New Zealand">
-  </section>
-  
-<aside1>
- <img src="Graphics/New Zealandfinal.jpg"
+    </main>
+    
+      <aside class="leftcolumn">
+        <img src="Graphics/Australiafinal.jpg"
  alt="New Zealand">
-  </aside1>
-
-    <aside2>
- <img src="Graphics/New Zealandfinal.jpg"
+    </aside>
+    
+      <aside class="rightcolumn">
+        <img src="Graphics/New Zealandfinal.jpg"
  alt="New Zealand">
-  </aside2>
+    </aside>
 
   </div>
-    
+  </section>
 
 
 </body>
