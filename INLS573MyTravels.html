@@ -34,13 +34,27 @@ img {
 a {
   color: blue;
 }
+
+column1 {
+  background-color: rgba(26, 158, 199, 0.8);
+  font-size: 3vw;
+  padding: 1.25vw;
+  color: white;
+  }
   
-@media (min-width: 768px) {
-  .content-flex-container
-  {flex-direction: row;}
-  leftmenu {
-    flex: 2;
-    font-size: 2.5vw;
+column2 {
+  background-color: rgba(26, 158, 199, 0.8);
+  font-size: 3vw;
+  padding: 1.25vw;
+  color: white;
+  }
+  
+column3 {
+  background-color: rgba(26, 158, 199, 0.8);
+  font-size: 3vw;
+  padding: 1.25vw;
+  color: white;
+  }
 
   
 </style>
@@ -51,35 +65,23 @@ a {
   <header>Liam Hayes - My Personal Page</header>
   </div>
   
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="Graphics/New Zealandfinal.jpg" style="width:100%">
-  <img class="mySlides" src="Graphics/Australiafinal.jpg" style="width:100%">
-  <img class="mySlides" src="Graphics/Egypt Real.png" style="width:100%">
-  <img class="mySlides" src="Graphics/Rome.png" style="width:100%">
+<column1>
+  <picture>
+ <img src="Graphics/New Zealandfinal.jpg"
+ alt="New Zealand">
+  </picture>
+  </column1>
+  
+<column2>
+  <picture>
+ <img src="Graphics/New Zealandfinal.jpg"
+ alt="New Zealand">
+  </picture>
+  </column2>
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
+    
+    
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
 
 </body>
 </html>
