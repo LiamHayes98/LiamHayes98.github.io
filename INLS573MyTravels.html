@@ -35,21 +35,20 @@ a {
   color: blue;
 }
 
-column1 {
+aside1 {
   background-color: rgba(26, 158, 199, 0.8);
   font-size: 3vw;
   padding: 1.25vw;
   color: white;
   }
-  
-column2 {
-  background-color: rgba(26, 158, 199, 0.8);
+aside2 {
+   background-color: rgba(26, 158, 199, 0.8);
   font-size: 3vw;
   padding: 1.25vw;
   color: white;
   }
-  
-column3 {
+
+  section {
   background-color: rgba(26, 158, 199, 0.8);
   font-size: 3vw;
   padding: 1.25vw;
@@ -59,13 +58,17 @@ column3 {
   @media (min-width: 768px) {
   .content-flex-container
   {flex-direction: row;}
-  column1 {
-    flex: 2;
-    font-size: 2.5vw;
-  column2 {
-    flex:2;
-    font-size:2.5vw;
+
+ section {
+   flex: 2
     }
+ .aside1 {
+   flex:2
+    }
+ .aside2 {
+   flex:2
+    }
+  }
 
   
 </style>
@@ -76,17 +79,20 @@ column3 {
   <header>Liam Hayes - My Travels</header>
   </div>
   
-<column1>
+<section>
  <img src="Graphics/New Zealandfinal.jpg"
  alt="New Zealand">
-  </column1>
+  </section>
   
-<column2>
+<aside1>
  <img src="Graphics/New Zealandfinal.jpg"
  alt="New Zealand">
-  </column2>
+  </aside1>
 
-    
+    <aside2>
+ <img src="Graphics/New Zealandfinal.jpg"
+ alt="New Zealand">
+  </aside2>
     
 
 
