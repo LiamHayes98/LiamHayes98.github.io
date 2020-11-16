@@ -53,9 +53,11 @@ aside {
 
  section {
    flex: 2;
+  font-size: 3vw;
     }
 aside {
   flex:2
+  font-size: 3vw;
   
   }
     h2 {
