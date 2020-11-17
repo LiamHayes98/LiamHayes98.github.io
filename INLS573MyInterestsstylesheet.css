@@ -46,18 +46,18 @@ aside {
   padding: 1.25vw;
   color: white;
   }
-
+p {
+ font-size: 3vw;
+}
   @media (min-width: 768px) {
   .content-flex-container
   {flex-direction: row;}
 
  section {
    flex: 2;
-  font-size: 5vw;
     }
 aside {
  flex: 2;
- font-size: 5vw;
   
   
   }
