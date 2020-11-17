@@ -35,14 +35,14 @@ a {
 
 aside {
   background-color: rgba(26, 158, 199, 0.8);
-  font-size: 1.25vw;
+  font-size: .25vw;
   padding: 1.25vw;
   color: white;
   }
 
   section {
   background-color: rgba(26, 158, 199, 0.8);
-  font-size: 1.25vw;
+  font-size: .25vw;
   padding: 1.25vw;
   color: white;
   }
@@ -53,11 +53,11 @@ aside {
 
  section {
    flex: 2;
-  font-size: 3vw;
+  font-size: 5vw;
     }
 aside {
  flex: 2;
- font-size: 3vw;
+ font-size: 5vw;
   
   
   }
