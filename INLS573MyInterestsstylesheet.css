@@ -55,9 +55,11 @@ p {
 
  section {
    flex: 2;
+  font-size: 1.25vw;
     }
 aside {
  flex: 2;
+ font-size: 1.25vw;
   
   
   }
