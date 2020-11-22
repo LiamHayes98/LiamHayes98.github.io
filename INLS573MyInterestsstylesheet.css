@@ -72,7 +72,7 @@ aside {
 
   }
 
- @media (min-width: 768px) {
+ @media (max-width: 768px) {
   .content-flex-container
   {flex-direction: row;}
 section {
