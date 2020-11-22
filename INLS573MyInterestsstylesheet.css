@@ -35,14 +35,14 @@ a {
 
 aside {
   background-color: rgba(26, 158, 199, 0.8);
-  font-size: 3vw;
+  font-size: 1.5vw;
   padding: 1.25vw;
   color: white;
   }
 
   section {
   background-color: rgba(26, 158, 199, 0.8);
-  font-size: 3vw;
+  font-size: 1.5vw;
   padding: 1.25vw;
   color: white;
   }
@@ -71,15 +71,3 @@ aside {
     }
 
   }
-
- @media (max-width: 769px) {
-  .content-flex-container
-  {flex-direction: row;}
-section {
- font-size: 1.5vw
-  }
-  
-  aside {
-   font-size: 1.5vw
-  }
-}
