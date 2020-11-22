@@ -55,13 +55,11 @@ p {
 
  section {
    flex: 2;
-  font-size: 2vw;
+  font-size: 8vw;
     }
 aside {
  flex: 2;
- font-size: 2vw;
-  
-  
+ font-size: 8vw;
   }
     h2 {
       font-size: 1.75vw;
@@ -69,5 +67,4 @@ aside {
     header {
       font-size: 3vw
     }
-
-  }
+}
