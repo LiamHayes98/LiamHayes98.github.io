@@ -28,14 +28,14 @@ leftmenu {
   }
   
 leftbody {
-  background-color: rgba(26, 158, 199, 1);
+  background-color: rgba(26, 158, 199, .8);
   font-size: 3vw;
   padding: 1.25vw;
   color: white;
   }
   
 rightbody {
-  background-color: rgba(26, 158, 199, 1);
+  background-color: rgba(26, 158, 199, .8);
   padding: 10px;
   
   }
@@ -48,7 +48,7 @@ leftmenu ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: rgba(26, 158, 199, 1);
+  background-color: rgba(26, 158, 199, .8);
 }
 
 leftmenu li {
@@ -68,7 +68,7 @@ rightmenu ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: rgba(26, 158, 199, 1);
+  background-color: rgba(26, 158, 199, .8);
 }
 
 rightmenu li {
