@@ -71,3 +71,15 @@ aside {
     }
 
   }
+
+ @media (min-width: 768px) {
+  .content-flex-container
+  {flex-direction: row;}
+section {
+ font-size: 1.5vw
+  }
+  
+  aside {
+   font-size: 1.5vw
+  }
+}
