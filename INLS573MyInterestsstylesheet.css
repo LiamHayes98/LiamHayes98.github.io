@@ -47,7 +47,7 @@ aside {
   color: white;
   }
 p {
- font-size: 3vw;
+ font-size: 1.5vw;
 }
   @media (min-width: 768px) {
   .content-flex-container
